@@ -1,0 +1,20 @@
+0 silly argv { _: [ 'diff' ],
+0 silly argv   lernaVersion: '3.17.0',
+0 silly argv   '$0':
+0 silly argv    '..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js' }
+1 notice cli v3.17.0
+2 verbose rootPath C:\Users\Administrator\Desktop\learning\lerna\monorepo-example
+3 silly hasCommit
+4 verbose hasCommit true
+5 verbose hasTags true
+6 silly getLastTagInBranch
+7 error Error: Command failed: git describe --tags --abbrev=0
+7 error fatal: No tags can describe '373ae5ff0b644edb802818c2afc7debef4219b43'.
+7 error Try --always, or create some tags.
+7 error
+7 error
+7 error     at makeError (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
+7 error     at Function.module.exports.sync (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:338:15)
+7 error     at Object.execSync (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\child-process\index.js:26:16)
+7 error     at getLastCommit (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\diff\lib\get-last-commit.js:12:25)
+7 error     at DiffCommand.initialize (C:\Users\Administrator\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\diff\index.js:33:27)
