@@ -1,6 +1,6 @@
 {
   "name": "@vue/compiler-core",
-  "version": "3.0.0-alpha.1",
+  "version": "3.0.1-alpha.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
