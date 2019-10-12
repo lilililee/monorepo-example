@@ -7,5 +7,6 @@
     "acorn": "^7.1.0",
     "estree-walker": "^0.8.1",
     "source-map": "^0.7.3"
-  }
+  },
+  "gitHead": "c06feb56669541be38455eda7c4c807dc06f9fca"
 }

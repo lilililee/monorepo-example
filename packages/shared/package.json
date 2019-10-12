@@ -2,5 +2,6 @@
   "name": "@vue/shared",
   "version": "3.0.1-alpha.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "c06feb56669541be38455eda7c4c807dc06f9fca"
 }
